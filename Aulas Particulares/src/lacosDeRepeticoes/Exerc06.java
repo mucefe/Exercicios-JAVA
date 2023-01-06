@@ -15,6 +15,8 @@ public class Exerc06 {
 		System.out.println(num1);
 		for (int i=num1;i<=num2;i++ )
 			System.out.println(i);
+		
+		
 		sc.close();
 	}
 }
