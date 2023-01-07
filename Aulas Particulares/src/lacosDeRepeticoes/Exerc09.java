@@ -13,6 +13,7 @@ public class Exerc09 {
 		System.out.println("Insira o tamanho do vetor");
 		tamanho = sc.nextInt();
 
+		
 		for (int i = 0; i < vetor.length; i++) { // Por que está ignorando este laço?
 			System.out.print("Insira o primeiro número: ");
 			vetor[i] = sc.nextInt();
