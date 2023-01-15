@@ -152,7 +152,7 @@ public class Teste {
 				break;
 			case 3:
 				System.out.print("Insira o número pelo qual serão divididos os elementos do vetor: ");
-				int numeroC = sc.nextInt();
+				double numeroC = sc.nextDouble();
 				double[] vetorDouble = new double[8];
 				vetorDouble[0] = vetor[0]/numeroC;
 				vetorDouble[1] = vetor[1]/numeroC;
