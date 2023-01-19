@@ -12,20 +12,20 @@ public class ExercFunc01 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Insira o número do mês");
 		int numeroMes = sc.nextInt();
-		if (numeroMes<1||numeroMes>12) {
+		if (numeroMes < 1 || numeroMes > 12) {
 			System.out.println("Número inválido. Insira um número entre 1 e 12.");
 		}
 		nomeiaMes();
-		
-		public static nomeiaMes() {
-			String[] nomeMes = {"","Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembrto", "Outubro", "Noovembro", "Dezembro"};
-			for (int i=0;i<nomeMes.length;i++) {
-				System.out.println(nomeMes[i]);
-				return;
-			}
-		}
-		
-sc.close();
+
+	}
+
+
+	public static void nomeiaMes(numeroMes) {
+		String[] nomeMes = { "", "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto",
+				"Setembrto", "Outubro", "Noovembro", "Dezembro" };
+
+		System.out.println(nomeMes[numeroMes]);
+
 	}
 
 }
