@@ -43,5 +43,6 @@ public class ExercFunc05 {
 		}
 		return vetor;
 	}
+	
 
 }
