@@ -16,16 +16,14 @@ public class ExercFunc01 {
 			System.out.println("Número inválido. Insira um número entre 1 e 12.");
 		}
 		nomeiaMes();
-
+	
 	}
 
+public static void nomeiaMes(numeroMes) {
+	String[] nomeMes = { "", "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto",
+			"Setembrto", "Outubro", "Noovembro", "Dezembro" };
 
-	public static void nomeiaMes(numeroMes) {
-		String[] nomeMes = { "", "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto",
-				"Setembrto", "Outubro", "Noovembro", "Dezembro" };
-
-		System.out.println(nomeMes[numeroMes]);
-
-	}
+	System.out.println(nomeMes[numeroMes]);
+}
 
 }
