@@ -25,6 +25,7 @@ public class Teste {
 		vetor[6] = sc.nextInt();
 		System.out.println("Insira o oitavo e último número do vetor: ");
 		vetor[7] = sc.nextInt();
+		
 
 		int resp = 0;
 		System.out.println("O que você gostaria de fazer?: ");
