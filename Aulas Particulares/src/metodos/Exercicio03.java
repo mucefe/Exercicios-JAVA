@@ -1,4 +1,4 @@
-/*Utilize métodos desenvolvidos nas partes (a) e (b) para escrever um método displayDigits que
+/*Utilize métodos desenvolvidos nas partes (a) e (b) para escrever um método displayDigits que 
 recebe um inteiro entre 1 e 99999 e o exibe como uma seqüência de dígitos, separando cada par
 de dígitos por dois espaços. Por exemplo, o inteiro 4562 deve aparecer como ”4 5 6 2”.*/
 
