@@ -5,8 +5,8 @@ package metodos;
 public class Exercicio07Alternativo {
 
 	public static void main(String[] args) {
-		int num1 = 100;
-		int num2 = 8;
+		int num1 = 20;
+		int num2 = 24;
 		System.out.println(mdc(num1, num2));
 
 	}
