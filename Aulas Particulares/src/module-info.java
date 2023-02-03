@@ -6,4 +6,5 @@
  *
  */
 module Aulas {
+	requires junit;
 }

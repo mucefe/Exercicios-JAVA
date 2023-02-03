@@ -1,7 +1,7 @@
-/*Escreva um método distance para calcular a distância entre dois pontos (x1, y1) 
+/*Escreva um método distance para calcular a distância entre dois pontos (x1, y1)  
  * e (x2, y2). Todos os números e valores de retorno devem ser do tipo double. Incorpore esse 
  * método a um aplicativo que permite que o usuário insira as coordenadas de pontos.*/
-//tirei da internet, mas não entendi direito
+
 package metodos;
 
 import java.util.Scanner;
@@ -26,6 +26,6 @@ sc.close();
 	public static double distance(double x1, double y1, double x2, double y2) {
 	    double xDiff = x2 - x1;
 	    double yDiff = y2 - y1;
-	    return Math.sqrt(xDiff * xDiff + yDiff * yDiff); //pq raiz quadrada?
+	    return Math.sqrt(xDiff * xDiff + yDiff * yDiff); 
 	}
 }
