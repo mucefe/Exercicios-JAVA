@@ -1,4 +1,4 @@
-/*Escreva um método qualityPoints que insere a média de um aluno e retorna 4 se for 90 a 100, 3
+/*Escreva um método qualityPoints que insere a média de um aluno e retorna 4 se for 90 a 100, 3 
 se 80 a 89, 2 se 70 a 79, 1 se 60 a 69 e 0 se menor que 60. Incorpore o método a um aplicativo
 que lê um valor a partir do usuário e exibe o resultado*/
 package metodos;
