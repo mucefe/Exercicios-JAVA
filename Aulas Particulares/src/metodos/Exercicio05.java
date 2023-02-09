@@ -19,14 +19,14 @@ public class Exercicio05 {
 	entrada.close();
 	}
 	
-	private static void inverteString(int numero) {
+	public static void inverteString(int numero) {
 		char[] caracteres=Integer.toString(numero).toCharArray();
 		for (int i=caracteres.length-1;i>=0;i--) {
 			System.out.print(caracteres[i]);
 		}
 	}
 	
-	private static void inverteNumeros(int numero) {
+	public static void inverteNumeros(int numero) {
 
 		int i = 0;
 
