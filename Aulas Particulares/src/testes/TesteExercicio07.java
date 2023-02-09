@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import metodos.Exercicio07;
 
-public class TesteMDC {
+public class TesteExercicio07 {
 @Test
 public void testeMDC(){
 	assertEquals(6,Exercicio07.mdc(18,60));
@@ -22,4 +22,5 @@ public void testeMDC3() {
 public void testeMDC4() {
 	assertEquals(-1,Exercicio07.mdc(20,0));
 }
+
 }
