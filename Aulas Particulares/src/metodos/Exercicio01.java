@@ -20,6 +20,8 @@ public class Exercicio01 {
 		diasTotais+=mesesParaDias(meses);
 		diasTotais+=dias;
 		System.err.println("Idade total em dias: "+diasTotais);
+		
+		sc.close();
 	}
 
 	public static int anosParaDias(int anos) {
